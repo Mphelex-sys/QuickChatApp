@@ -5,5 +5,19 @@
     "sender": "kyl_1",
     "recipient": "+27767319545",
     "message": "good man good"
+  },
+  {
+    "messageID": "3685750249",
+    "messageHash": "36:1:MYLETHABO",
+    "sender": "kyl_1",
+    "recipient": "+27790867655",
+    "message": "my name is lethabo"
+  },
+  {
+    "messageID": "0759472545",
+    "messageHash": "07:4:IMYOU",
+    "sender": "kyl_1",
+    "recipient": "+27790877634",
+    "message": "im leaving without you."
   }
 ]

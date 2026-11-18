@@ -123,8 +123,7 @@ public class QuickChatApp {
                 break;
             } else {
             System.out.println("");
-                 System.out.println("Cell phone number incorrectly formatted " +
-                        "or does not contain international code.");
+                 System.out.println("Cell phone number incorrectly formatted or does not contain international code.");
                 System.out.println("");
             }
         }
@@ -172,7 +171,7 @@ public class QuickChatApp {
     }
  
     public static String returnLoginStatus() {
-        isLoggedIn = loginUser();   // PART 2: remember the result so QuickChat can check it
+        isLoggedIn = loginUser(); 
         if (isLoggedIn) {
            
             return "Welcome " + username + " it is great to see you.";

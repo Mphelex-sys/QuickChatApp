@@ -62,7 +62,6 @@ public class QuickChatApp {
     }
  
     public static boolean checkPasswordComplexity(String passWord) {
-        // At least 8 chars, one capital, one digit, one special character.
         boolean longEnough   = passWord.length() >= 8;
         boolean hasUpper     = passWord.matches(".*[A-Z].*");
         boolean hasDigit     = passWord.matches(".*[0-9].*");
@@ -174,7 +173,7 @@ public class QuickChatApp {
         isLoggedIn = loginUser(); 
         if (isLoggedIn) {
            
-            return "Welcome " + username + " it is great to see you.";
+            return "Welcome " + username + " it is great to see you";
         } else {
             return "Username or password incorrect, please try again.";
         }

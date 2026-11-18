@@ -9,6 +9,7 @@ public class QuickChatApp {
     static String password = null;
     static String cellphone = null;
     static boolean isRegistered = false;
+    static boolean isLoggedIn = false;
  
     public static void main(String[] args) {
  

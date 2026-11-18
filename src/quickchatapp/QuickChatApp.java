@@ -173,7 +173,7 @@ public class QuickChatApp {
         isLoggedIn = loginUser(); 
         if (isLoggedIn) {
            
-            return "Welcome " + username + " it is great to see you";
+            return "Welcome " + username + " it is great to see you.";
         } else {
             return "Username or password incorrect, please try again.";
         }
